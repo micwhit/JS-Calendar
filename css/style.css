@@ -1,0 +1,44 @@
+.container {
+ width:700px;
+}
+
+#my-calendar {
+	border:1px solid #ccc;
+	position:relative;
+	width:100%;
+	min-width:280px;
+	text-align:center;
+}
+
+.day, #day_labels div {
+	float:left;
+	margin:0;
+	width:14.045%;
+	padding:3.5% 0;
+	border-bottom:1px solid #ccc;
+	border-right:1px solid #ccc;
+}
+
+@media screen and (max-width: 480px) {
+	.day {
+		float:left;
+		margin:0;
+		width:13.9%;
+		padding:3.5% 0;
+		border-bottom:1px solid #ccc;
+		border-right:1px solid #ccc;
+		text-align:center;
+	}
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+	.day {
+		float:left;
+		margin:0;
+		width:13.95%;
+		padding:3.5% 0;
+		border-bottom:1px solid #ccc;
+		border-right:1px solid #ccc;
+		text-align:center;
+	}
+}
